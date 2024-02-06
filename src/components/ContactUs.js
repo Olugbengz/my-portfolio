@@ -1,4 +1,5 @@
 import React from 'react'
+import { Email } from './contact'
 
 function ContactUs(prop) {
   return (
@@ -19,7 +20,8 @@ function ContactUs(prop) {
         
        
         <div className="w-full mt-8 mx-auto max-w-xs">
-  <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+          <Email />
+  {/* <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
     <div className="mb-4">
       <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="fullname" type="text" placeholder="Your Name" />
     </div>
@@ -38,7 +40,7 @@ function ContactUs(prop) {
       </button>
      
     </div>
-  </form>
+  </form> */}
 </div>
 </div>
 </div>

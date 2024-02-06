@@ -8,6 +8,7 @@ import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
 import { BrowserRouter } from 'react-router-dom';
 import { Link } from 'react-router-dom';
+// import Form from './state-tutorial';
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
       
         <Hero />
         <About />
+        {/* <Form /> */}
         <Projects />
         <Skills />
         <ContactUs />
