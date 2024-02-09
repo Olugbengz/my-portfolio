@@ -11,7 +11,7 @@ import { BsDatabaseGear } from "react-icons/bs";
 
 function Skills() {
   return (
-    <div className='bg-slate-50 hidden h-screen md:flex py-auto '>
+    <div className='bg-teal-100 hidden h-screen md:flex py-auto '>
         <div className='container m-auto py-12 px-20'>
           <div><h1 className='mb-4 text-2xl font-semibold'>Skills</h1></div>
       <div className='grid grid-rows-3 gap-8 pr-20'>

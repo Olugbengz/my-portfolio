@@ -2,7 +2,7 @@ import React from 'react'
 
 function About(prop) {
   return (
-    <div id='about' className='bg-slate-50 h-screen flex py-auto'>
+    <div id='about' className='bg-teal-100 h-screen flex py-auto'>
       <div className='container md:p-10 mx-auto h-[80vh]'>
       <div className='lg:grid grid-cols-2 gap-5 text-center mt-12 items-center'>
       <div className="w-full mt-8 mx-auto max-w-xs">
