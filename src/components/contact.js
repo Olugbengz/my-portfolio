@@ -51,7 +51,7 @@ export const Email = () => {
 
   return (
      
-    <form ref={form} onSubmit={sendEmail} className="bg-white shadow-md rounded-lg px-8 pt-6 pb-8 mb-4">
+    <form ref={form} onSubmit={sendEmail} className="bg-white w-full shadow-md rounded-lg px-12 pt-6 pb-8 mb-4">
 
         <h4 className='mb-4 text-gray-400 text-lg font-semibold'>Waiting to hear from you!</h4>
 

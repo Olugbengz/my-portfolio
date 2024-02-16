@@ -6,7 +6,7 @@ import { FaInstagram } from "react-icons/fa6";
 
 function Footer() {
   return (
-    <div className='bg-teal-200 h-100vh flex pt-0 pb-16'>
+    <div className='bg-sky-600 h-100vh flex pt-0 pb-16'>
       {/* <div className='container flex items-center  h-3/4'> */}
         <div className='lg:grid md:mt-28  grid-cols-4 gap-6 items-center justify-between m-auto'>
           <div className='col-span-2 sm:grid-cols-1 md:text-2xl text-xl font-semibold px-6 py-4 mb-4 border-2 border-gray-200 rounded-lg text-black-900 w-4/4 md:h-96  h-64'>

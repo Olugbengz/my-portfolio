@@ -1,25 +1,31 @@
-import React from 'react'
-import { Email } from './contact'
+import React from 'react';
+import { Email } from './contact';
+import { GiRotaryPhone } from "react-icons/gi";
+import { MdEmail } from "react-icons/md";
+import { FaAddressCard } from "react-icons/fa";
 
 function ContactUs(prop) {
   return (
-    <div id='contact' className='bg-slate-50 h-screen flex py-auto '>
+    <div id='contact' className='bg-sky-30 h-screen flex md:py-auto py-20 '>
       <div className='container md:p-10 mx-auto h-[80vh]'>
-      <div className='lg:grid grid-cols-2 gap-5 text-center mt-12 items-center'>
-        <div className='bg-gray-300 border border-lime-100 border-spacing-4 p-5 w-3/4 mx-auto md:py-20 py-18'>
-        <h1 className='text-xl border-b-2 mb-8 border-spacing-12 border-slate-100'>Contact Me</h1>
+      <div className='lg:grid grid-cols-2 gap-3 justify-between text-center my-6 items-center'>
+        <div className='border px-10 mb-10 w-3/4 mx-auto md:py-10 py-18'>
+        <h1 className='flex text-xl mb-4 text-gray-500 items-start border-spacing-12 border-slate-100'>Get In Touch!</h1>
             <span></span>
+            <ul className='flex flex-col gap-4 text-gray-500 items-start'>
+               <li><GiRotaryPhone className='inline'/> <span className='ml-2'>+234 802 454 2386</span></li>
+               <li><MdEmail className='inline'/> <span className='ml-2'>gbenz@mail.com</span></li>
+               <li><FaAddressCard className='inline'/> <span className='ml-2'>Lagos State, Nigeria</span></li>
+            </ul>
+            <hr className='w-full text-gray-700 my-5'/>
             <div>
-                <p className=''>
-                They understand the importance of responsive and dynamic interfaces, 
-                ensuring that users have a delightful and engaging experience with
-                 the applications they build.
-                </p>
+              <p className='w-full px-2 text-gray-500 text-center'>Hi <span className='font-bold italic antialiased'>Friend</span>, I really care about that software 
+              project that is bordering you. Hand it over, I <span className='font-bold'>CAN</span> handle it.</p>
             </div>
         </div>
         
        
-        <div className="w-full mt-8 mx-auto max-w-xs">
+        <div className='border w-3/4 px-10 mx-auto md:py-10 py-18'>
           <Email />
   {/* <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
     <div className="mb-4">
