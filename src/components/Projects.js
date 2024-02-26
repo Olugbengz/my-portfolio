@@ -1,18 +1,34 @@
 import React from 'react';
 import Card from './Card';
+import { projects } from '../project-data';
 
 
-function Projects(prop) {
-  
+function Projects() {
+  const cardDetails = projects.map((project) => {
+    return (
+      <Card 
+          key={project.id}
+          imgLink={project.imgLink}
+          title={project.title}
+          descr={project.descr}
+          languages={project.languages.map((language) => {
+            return (
+            <div className=' text-amber-200 bg-blue-950 text-sm rounded-full px-2.5 py-1 m-auto'>
+              {language}
+            </div>
+            )
+          })}
+          link={project.link}
+      
+      />
+    )
+  })
   return (
-    <div id='projects' className='bg-slate-50 h-screen flex flex-col py-auto '>
-       <div className='container md:grid grid-cols-4 m-auto py-12 px-20'>
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+    <div id='projects' className='bg-slate-50 h-auto flex flex-col py-16 '>
+       <div className='container grid md:grid-cols-3 gap-4 m-auto py-10 px-20 w-full'>
+        {cardDetails}
      </div>
-     <button className='bg-blue-700 text-xl px-4 py-2 mx-auto mb-20 w-[150px] rounded-lg text-white' type='button'>More</button>
+     <button className='italic antialiased font-medium text-xl border-4 px-3 py-1 mx-auto mb-20 w-[100px] rounded-full text-green-900' type='button'>More...</button>
     </div>
   )
 }

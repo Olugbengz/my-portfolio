@@ -6,9 +6,9 @@ import { FaInstagram } from "react-icons/fa6";
 
 function Footer() {
   return (
-    <div className='bg-sky-600 h-100vh flex pt-0 pb-16'>
+    <div className='bg-slate-100 h-100vh flex flex-col pt-0 pb-16'>
       {/* <div className='container flex items-center  h-3/4'> */}
-        <div className='lg:grid md:mt-28  grid-cols-4 gap-6 items-center justify-between m-auto'>
+        <div className='lg:grid md:mt-28  grid-cols-4 gap-6 items-center justify-between m-auto border-b-2'>
           <div className='col-span-2 sm:grid-cols-1 md:text-2xl text-xl font-semibold px-6 py-4 mb-4 border-2 border-gray-200 rounded-lg text-black-900 w-4/4 md:h-96  h-64'>
             <h3> <span><i>Olugbeng_</i></span> Z</h3>
           </div>
@@ -25,8 +25,14 @@ function Footer() {
             </div>
           </div>
         </div>
+        <div className="text-center text-sm font-normal">
+        <p>© Copyright 2024 <span> <em>Olugbengz</em> </span> </p>
+       </div>
 
-      {/* </div> */}
+
+        
+
+            {/* </div> */}
 
     </div>
   )

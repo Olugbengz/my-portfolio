@@ -1,33 +1,30 @@
 import React from 'react';
-import profileImg from '../assets/personal.png';
+// import profileImg from '../assets/portfo.png';
 import { IoGitBranch } from "react-icons/io5";
 
-function Card({
-    // project
-}) {
+
+function Card(props) {
   return (
-    <div  className='w-[250px]  flex flex-col border-2 border-gray-300 shadow-md items-start justify-center rounded-lg'>
-          <img className='w-full rounded-tl-lg rounded-tr-lg' src={profileImg} alt='Profile Image' />
+    <div  className='w-[300px]  flex flex-col border-2 border-gray-300 shadow-md items-start justify-center rounded-lg'>
+          <img className='w-full max-h-[160px] rounded-tl-lg rounded-tr-lg' src={require(`../assets/${props.imgLink}`)} alt='Profile foto' />
             <h3 className='font-sans text-xl text-gray-900 font-bold p-2'>
-                Title
-                {/* {project.title} */}
+            
+                {props.title}
             </h3>    
 
              <p className='font-san text-sm text-gray-600 font-normal p-2'>
-             Lorem Ipsum has been the industry's standard, 
-             when an unknown printer took a galley .... 
-                {/* {project.description} */}
+             
+                {props.descr}
             </p>
         
 
-        <div className='flex items-center gap-8 justify-between p-2'>
-            <ul className='flex gap-2 items-center justify-center'>
-                <li >HTML</li>
-                <li>Tailwind</li>
-                <li>React</li>
-            </ul>
-            <a className='flex items-end' href=''><IoGitBranch /></a>
+        <div className=' flex items-center gap-8 justify-start ml-2 my-2'>
+            
+            <div className='flex gap-2'>{props.languages}</div>
+                
+                <a href={props.link} target='_blank' className='bg-green-900 inline-block italic antialiased font-light text-white text-lg cursor-pointer px-3.5 py-1.5 w-12 rounded-full'><IoGitBranch /></a>
         </div>
+        
 
     </div>
   )
