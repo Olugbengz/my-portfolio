@@ -74,7 +74,8 @@ function Hero() {
                    
                    <ul className='grow flex gap-3 items-center justify-end text-gray-700 font-medium absolute md:relative md:flex-row top-[-300px] md:top-[inherit]'>
                    <li> <a href='#about' className='block hover:text-amber-500 px-3 py-2'>About</a></li>
-                   <li><a href='#projects' className='block hover:text-amber-500 px-3 py-2'>Project</a></li>
+                   <li><a href='#projects' className='block hover:text-amber-500 px-3 py-2'>Project</a></li>                   
+                   <li><a href='#contact' className='block hover:text-amber-500 px-2 py-2'>Blog</a></li>
                    <li><a href='#contact' className='block hover:text-amber-500 px-3 py-2'>Contact</a></li>
                    <button className='btn bg-indigo-900 font-normal hover:bg-blue-700 text-white rounded-full py-2 px-3'>Follow Me!</button>
                  </ul>
@@ -83,7 +84,8 @@ function Hero() {
                   <ul className='duration-100 grow flex gap-3 items-start text-gray-700 font-medium absolute md:relative flex-col top-[70px]'>
                   <li> <a href='#about' className='block hover:text-amber-500 px-2 py-2'>About</a></li>
                   <li><a href='#projects' className='block hover:text-amber-500 px-2 py-2'>Project</a></li>
-                  <li><a href='#contact' className='block hover:text-amber-500 px-2 py-2'>Contact</a></li>
+                  <li><a href='#contact' className='block hover:text-amber-500 px-2 py-2'>Blog</a></li>
+                  <li><a href='#contact' className='block hover:text-amber-500 px-2 py-2'>Contact</a></li>                  
                   <button className='btn bg-indigo-900 font-normal hover:bg-blue-700 text-white rounded-full py-2 px-3'>Follow Me!</button>
                 </ul>
                 )} 
@@ -110,8 +112,8 @@ function Hero() {
           Python-Django Developer
         </h1>
       </div>
-      <p className='text-xl md:text-lg font-medium'>
-      Meet <span className='text-3xl font-serif italic antialiased text-indigo-900'><b>Olugbenga Okundaye</b></span>, an ambitious Python and 
+      <p className='text-base md:text-lg font-medium'>
+      Meet <span className='text-xl md:text-3xl font-serif italic antialiased text-indigo-900'><b>Olugbenga Okundaye</b></span>, an ambitious Python and 
       Django developer who thrives on the excitement of full-stack programming. With a passion for crafting seamless and user-friendly applications, 
       Olugbenga dedicates his time and energy to mastering the back-end as well as the art of the front-end development.   
             

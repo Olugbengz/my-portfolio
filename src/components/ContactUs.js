@@ -8,8 +8,8 @@ function ContactUs(prop) {
   return (
     <div id='contact' className='bg-slate-50 h-auto flex flex-col md:py-auto py-20 '>
       <div className='container md:p-10 mx-auto h-auto'>
-      <div className='lg:grid grid-cols-2 gap-3 justify-between text-center my-6 items-center'>
-        <div className='border px-10 mb-10 w-3/4 mx-auto md:py-10 py-18'>
+      <div className='lg:grid grid-cols-2 gap-1 justify-between text-center my-6 items-center'>
+        <div className='px-10 mb-10 w-3/4 mx-auto md:py-10 py-18'>
         <h1 className='flex text-xl mb-4 text-gray-500 items-start border-spacing-12 border-slate-100'>Get In Touch!</h1>
             <span></span>
             <ul className='flex flex-col gap-4 text-gray-500 items-start'>
@@ -25,7 +25,7 @@ function ContactUs(prop) {
         </div>
         
        
-        <div className='border w-3/4 px-10 mx-auto md:py-10 py-18'>
+        <div className='w-3/4 px-4 py-4 md:px-10 mx-auto md:py-10 py-18'>
           <Email />
   
 </div>
