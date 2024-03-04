@@ -13,8 +13,8 @@ function ContactUs(prop) {
         <h1 className='flex text-xl mb-4 text-gray-500 items-start border-spacing-12 border-slate-100'>Get In Touch!</h1>
             <span></span>
             <ul className='flex flex-col gap-4 text-gray-500 items-start'>
-               <li><GiRotaryPhone className='inline'/> <span className='ml-2'>+234 802 454 0000</span></li>
-               <li><MdEmail className='inline'/> <span className='ml-2'>gbenz@mail.com</span></li>
+               <li><GiRotaryPhone className='inline'/> <span className='ml-2'>+234 911 038 7781</span></li>
+               <li><MdEmail className='inline'/> <span className='ml-2'>info@olugbengz.com.ng</span></li>
                <li><FaAddressCard className='inline'/> <span className='ml-2'>Lagos State, Nigeria</span></li>
             </ul>
             <hr className='w-full text-gray-700 my-5'/>

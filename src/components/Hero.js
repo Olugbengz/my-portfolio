@@ -56,7 +56,7 @@ function Hero() {
         
               <div>
               <a href='#ContactUs' className='text-start'>
-                  <span className='text-2xl text-gray-900 font-bold cursor-pointer font-Rubik'><i>Olugbeng_</i>Z</span>
+                  <span className='text-xl md:text-2xl text-gray-900 font-bold cursor-pointer font-Rubik'><i>Olugbeng_</i>Z</span>
                 </a>
               </div>
 
@@ -121,11 +121,11 @@ function Hero() {
       
       <a href='#about' className='bg-indigo-900 italic font-light hover:bg-blue-700 border-2 border-amber-50 text-white mt-4 py-2 px-4 rounded-full'>More... </a> 
     </div>
-    <div className=' fixed md:absolute right-1 bottom-1 text-gray-800 text-sm md:text-2xl flex items-center justify-between w-28 md:w-44 p-4 md:border-2 rounded-md border-slate-200'>
+    <div className='  md:fixed absolute right-2 bottom-1/2 text-gray-800 text-sm md:text-2xl flex flex-col gap-6 items-center justify-between w-12 md:w-16 p-4 md:border-2 rounded-md border-slate-200'>
     
-        <SlSocialLinkedin />
-        <FaXTwitter />
-        <FaInstagram />
+        <a href='https://www.linkedin.com/in/olugbenga-okundaye-a7890945/'><SlSocialLinkedin /></a>
+        <a href='https://twitter.com/OlugbengaOkund2'><FaXTwitter /></a>
+        <a href='https://www.instagram.com/olugbengaokundaye/'><FaInstagram /></a>
       
     </div>
       

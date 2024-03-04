@@ -13,21 +13,21 @@ function Skills() {
   return (
     <div className='bg-slate-100 hidden h-auto md:flex py-auto '>
         <div className='container m-auto py-12 px-20'>
-          <div><h1 className='mb-4 text-2xl font-semibold'>Skills</h1></div>
-      <div className='grid grid-rows-3 gap-8 pr-20'>
+          <div><h1 className='mb-4 text-2xl font-medium'>Skills</h1></div>
+      <div className='grid grid-rows-3 gap-6 pr-20'>
         {/* Backend Skills */}
-          <div className='flex gap-5 items-center justify-between mb-8'>
+          <div className='flex gap-5 items-center justify-between mb-6'>
               <div className='w-[500px] border-t-4 border-x-amber-900'>
-                  <h4 className='pl-6 mt-8 text-2xl font-semibold'>Backend</h4>
+                  <h4 className='pl-6 mt-8 text-xl text-gray-700 font-medium'>Backend</h4>
               </div>
             <div  className='flex gap-5 items-center justify-between'>
-                <div className='h-[75px] w-[75px] pt-3.5 rounded-full text-4xl text-amber-200 bg-blue-950 border-2 border-teal-600'>
+                <div className='h-[75px] w-[75px] pt-2.5 rounded-full text-4xl text-amber-200 bg-blue-950 border-2 border-red-900'>
                   <TbBrandPython className='relative m-auto' />
                 </div> 
-                <div className='h-[75px] w-[75px] pt-3.5 rounded-full text-4xl text-amber-200 bg-blue-950 border-2 border-teal-600'>
+                <div className='h-[75px] w-[75px] pt-2.5 rounded-full text-4xl text-amber-200 bg-blue-950 border-2 border-red-900'>
                   <TbBrandDjango className='relative m-auto' />
                 </div>
-                <div className='h-[75px] w-[75px] pt-3.5 rounded-full text-4xl text-amber-200 bg-blue-950 border-2 border-teal-600'>
+                <div className='h-[75px] w-[75px] pt-2.5 rounded-full text-4xl text-amber-200 bg-blue-950 border-2 border-red-900'>
                   <BsDatabaseGear className='relative m-auto'/>
                 </div>
             </div>
@@ -35,28 +35,28 @@ function Skills() {
 
     {/* Frontend Skills */}
 
-      <div className='flex gap-5 items-center justify-between mb-8' >
+      <div className='flex gap-5 items-center justify-between mb-6' >
         <div>
-          <h4 className='pl-6 mt-2 text-2xl font-semibold'>Frontend</h4>
+          <h4 className='pl-6 mt-2 text-xl text-gray-700 font-medium'>Frontend</h4>
         </div>
 
         <div className='flex gap-5 items-center justify-between'>
-        <div className='h-[75px] w-[75px] pt-3.5 rounded-full text-4xl text-amber-200 bg-blue-950 border-2 border-teal-600'>
+        <div className='h-[75px] w-[75px] pt-2.5 rounded-full text-4xl text-amber-200 bg-blue-950 border-2 border-red-900'>
               <RiJavascriptLine  className='relative m-auto'/>
             </div>
 
           
-              <div className='h-[75px] w-[75px] pt-3.5 rounded-full text-4xl text-amber-200 bg-blue-950 border-2 border-teal-600'>
+              <div className='h-[75px] w-[75px] pt-2.5 rounded-full text-4xl text-amber-200 bg-blue-950 border-2 border-red-900'>
                 <FaReact className='relative m-auto'/>
                 
               </div>
               
             
 
-            <div className='h-[75px] w-[75px] pt-3.5 rounded-full text-4xl text-amber-200 bg-blue-950 border-2 border-teal-600'>
+            <div className='h-[75px] w-[75px] pt-2.5 rounded-full text-4xl text-amber-200 bg-blue-950 border-2 border-red-900'>
               <FaCss3 className='relative m-auto'/>
             </div>
-            <div className='h-[75px] w-[75px] pt-3.5 rounded-full text-4xl text-amber-200 bg-blue-950 border-2 border-teal-600'>
+            <div className='h-[75px] w-[75px] pt-2.5 rounded-full text-4xl text-amber-200 bg-blue-950 border-2 border-red-900'>
                 <AiOutlineHtml5 className='relative m-auto'/>
             </div>
         </div>
@@ -64,18 +64,18 @@ function Skills() {
 
       {/* Data Science */}
 
-      <div className='flex gap-5 items-center justify-between mb-8'>
+      <div className='flex gap-5 items-center justify-between mb-6'>
           <div className='w-[500px] border-b-4 border-x-amber-900'>
-            <h3 className='pl-6 mb-8 text-2xl font-semibold'>Scrapping/Data Science</h3>
+            <h3 className='pl-6 mb-8 text-xl text-gray-700 font-medium'>Scrapping/Data Science</h3>
           </div>
 
           <div className='flex gap-5 items-center justify-between'>
           
-            <div className='h-[75px] w-[75px] pt-3.5 rounded-full text-4xl text-amber-200 bg-blue-950 border-2 border-teal-600'>
+            <div className='h-[75px] w-[75px] pt-2.5 rounded-full text-4xl text-amber-200 bg-blue-950 border-2 border-red-900'>
               <SiSelenium className='relative m-auto'/>
             </div>
 
-            <div className='h-[75px] w-[75px] pt-3.5 rounded-full text-4xl text-amber-200 bg-blue-950 border-2 border-teal-600'>
+            <div className='h-[75px] w-[75px] pt-2.5 rounded-full text-4xl text-amber-200 bg-blue-950 border-2 border-red-900'>
               <GiPanda className='relative m-auto'/>
             </div>           
             

@@ -25,7 +25,7 @@ function Projects() {
   })
   return (
     <div id='projects' className='bg-slate-50 h-auto flex flex-col py-16 '>
-       <div className='container grid md:grid-cols-3 gap-4 m-auto py-10 px-20 w-full'>
+       <div className='container grid md:grid-cols-3 gap-2 m-auto py-10 px-20 w-full'>
         {cardDetails}
      </div>
      <button className='italic antialiased font-medium text-xl border-4 px-3 py-1 mx-auto mb-20 w-[100px] rounded-full text-green-900' type='button'>More...</button>

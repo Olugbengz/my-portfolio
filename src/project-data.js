@@ -18,7 +18,7 @@ export const projects = [
     {   
         id:2,
         imgLink: 'telemed.jpg',
-        title: 'Telemedicine',
+        title: 'Talk-2-Doc',
         descr: 'Ongoing: A Telemedicine project that intends to cater to the needs of users.',
         languages: [
              <TbBrandPython />, 

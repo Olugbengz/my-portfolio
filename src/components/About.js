@@ -1,13 +1,22 @@
-import React from 'react'
+import React from 'react';
+import myImg from '../assets/63nkvl.jpg';
+import logo from '../assets/fav-logo.jpg';
 
 function About(prop) {
   return (
     <div id='about' className='bg-slate-100 h-auto flex py-auto'>
       <div className='container md:p-10 mx-auto w-3/4'>
       <div className='lg:grid grid-cols-3 gap-8 text-start my-12 items-center'>
-      <div className="w-full col-span-1 mx-auto max-w-xs">
+      <div className="w-full col-span-1 mx-auto max-w-xs ">
   
-  <img  src='https://professions.ng/wp-content/uploads/2023/07/Building-a-Career-Computer-Programmer-in-Nigeria-Today.jpg' alt='Random Programer' />
+  
+  <div class="w-full h-full flex  justify-center items-center bg-black brightness-75 rounded-tr-3xl rounded-bl-3xl">
+  <img className='absolute bottom-3 right-3 size-10 rounded-3xl' src={logo} alt='logo' />
+  <img  src={myImg} alt='Random Programer' className='rounded-tr-3xl rounded-bl-3xl' />
+  
+</div>
+
+      
 
 </div>
         <div className='bg-gray-200 col-span-2 p-5 mt-4 mx-auto md:py-20 py-18'>

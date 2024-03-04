@@ -22,7 +22,7 @@ function Card(props) {
             
             <div className='flex gap-2'>{props.languages}</div>
                 
-                <a href={props.link} target='_blank' className='bg-green-900 inline-block italic antialiased font-light text-white text-lg cursor-pointer px-3.5 py-1.5 w-12 rounded-full'><IoGitBranch /></a>
+                <a href={props.link} target='_blank' rel='noopener noreferrer' className='bg-green-900 inline-block italic antialiased font-light text-white text-lg cursor-pointer px-3.5 py-1.5 w-12 rounded-full'><IoGitBranch /></a>
         </div>
         
 
