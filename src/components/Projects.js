@@ -25,12 +25,14 @@ function Projects() {
   })
   return (
     <div id='projects' className='bg-slate-50 h-auto flex flex-col py-16 '>
-       <div className='container grid md:grid-cols-3 gap-2 m-auto py-10 px-20 w-full'>
+       <div className='lg:grid mt-10 md:mt-14 grid-cols-3 gap-12 space-y-4 md:space-y-6 m-auto pb-3'>
         {cardDetails}
      </div>
-     <button className='italic antialiased font-medium text-xl border-4 px-3 py-1 mx-auto mb-20 w-[100px] rounded-full text-green-900' type='button'>More...</button>
+     <button className='italic antialiased font-medium text-xl border-4 px-3 py-1 mx-auto my-12 w-[100px] rounded-full text-green-900' type='button'>More...</button>
     </div>
   )
 }
 
 export default Projects
+
+// lg:grid grid-cols-3 gap-8 text-start my-12 items-center

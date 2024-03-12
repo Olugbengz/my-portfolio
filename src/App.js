@@ -15,7 +15,7 @@ function App() {
   
 
   return (
-    <div className="App">
+    <div className="m-auto">
       <BrowserRouter>
         <Link to='#about'>
         

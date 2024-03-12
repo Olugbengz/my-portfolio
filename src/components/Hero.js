@@ -50,8 +50,8 @@ function Hero() {
   // }
 
   return (
-    <main className='bg-slate-50 md:h-screen h-auto'>
-        <nav className='relative flex bg-white h-16 sm:h-16 justify-between md:justify-center top-0 border-b border-gray-200'>
+    <main className='bg-slate-50  h-100vh w-full'>
+        <nav className='relative flex bg-white h-12 sm:h-16 justify-between md:justify-center top-0 border-b border-gray-200'>
         <div className='container px-1 md:ml-0 flex items-center justify-between'>
         
               <div>

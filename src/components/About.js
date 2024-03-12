@@ -4,9 +4,9 @@ import logo from '../assets/fav-logo.jpg';
 
 function About(prop) {
   return (
-    <div id='about' className='bg-slate-100 h-auto flex py-auto'>
+    <div id='about' className='bg-slate-100 h-100vh flex flex-col py-16'>
       <div className='container md:p-10 mx-auto w-3/4'>
-      <div className='lg:grid grid-cols-3 gap-8 text-start my-12 items-center'>
+      <div className='lg:grid grid-cols-3 mt-12 md:mt-8 gap-8 text-start m-auto pb-3 items-center'>
       <div className="w-full col-span-1 mx-auto max-w-xs ">
   
   
